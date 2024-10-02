@@ -181,7 +181,7 @@ checkoutBtn.addEventListener("click", function () {
 })
 
 
-// VERIFICAR A HORA E MANIPULAR O CARD DO HÓRARIO SE ESTA ABERTO ou FECHADO
+// VERIFICAR A HORA E MANIPULA O CARD DO HÓRARIO SE ESTA ABERTO ou FECHADO
 function checkRestauranteOpen() {
     const data = new Date();
     const hora = data.getHours();
